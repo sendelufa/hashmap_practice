@@ -3,6 +3,7 @@
 Учебный репозиторий, приложение к серии видео про `HashMap` в Java.
 
 - ▶️ [Что такое HashMap?](https://youtu.be/ky6zv6O7VfA)
+- ▶️ [Влияние коллизий, конструкторы и LoadFactor](https://youtu.be/BwH7iHwVKms)
 
 ## Что внутри
 
@@ -37,7 +38,7 @@
 ## Сборка
 
 ```bash
-mvn clean compile
+./mvnw clean compile
 ```
 
 ## Как запускать демо
