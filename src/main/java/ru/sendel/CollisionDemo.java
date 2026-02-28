@@ -51,7 +51,6 @@ public class CollisionDemo {
 
         // Inspect bin length at some index (all BadKey collide into a single bin)
         int badCapacity = MapReflectUtils.capacityOf(badMap);
-        int anyIndex = 0; // since all collide, any non-null bin index isn't guaranteed; we'll scan to find it
         int foundIndex = MapReflectUtils.findFirstNonNullBinIndex(badMap);
         int len = MapReflectUtils.binLength(badMap, foundIndex);
 

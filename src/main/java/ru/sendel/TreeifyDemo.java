@@ -21,7 +21,7 @@ public class TreeifyDemo {
         // We insert 12 to be safely above threshold.
         for (int i = 0; i < 12; i++) {
             map.put(new BadKey(i), i);
-            System.out.print("added %2d".formatted(i));printHeadClass(map);
+            System.out.printf("added %2d", i);printHeadClass(map);
         }
 
         System.out.println("  Expectation: java.util.HashMap$TreeNode (treeified bin).");

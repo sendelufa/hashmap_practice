@@ -2,7 +2,7 @@ package ru.sendel;
 
 public class CalculateIndex {
 
-    static void main() {
+    public static void main(String[] args) {
         var key = "key";
         System.out.println(key.hashCode());
 
@@ -12,7 +12,7 @@ public class CalculateIndex {
         System.out.println(s2.hashCode());
 
         // Условия коллизии
-        //s1.hashCode() == s2.hashCode(); // true
-        //s1.equals(s2);                  // false — разные строки!
+        System.out.println(s1.hashCode() == s2.hashCode()); // true
+        System.out.println(s1.equals(s2));                  // false — разные строки!
     }
 }
